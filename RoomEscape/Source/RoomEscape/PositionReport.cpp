@@ -21,8 +21,8 @@ void UPositionReport::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
-	
+	// Display Text in Console using Warning Colour (yellow)
+	UE_LOG(LogTemp, Warning, TEXT("Position Report mooing on your console for smu!!"));
 }
 
 
