@@ -25,7 +25,7 @@ void UOpenDoor::BeginPlay()
 	AActor* Owner = GetOwner();
 
 	// Create Rotator
-	FRotator DoorRotation = FRotator(0.0f, 45.0f, 0.0f);
+	FRotator DoorRotation = FRotator(0.0f, OpenAngle, 0.0f);
 	
 	// Set new rotation
 	Owner->SetActorRotation(DoorRotation);
